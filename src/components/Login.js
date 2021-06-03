@@ -19,7 +19,6 @@ function Login() {
 
                 <br /><br />
 
-
                 <div
                     className="login-button facebook"
                     onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}
